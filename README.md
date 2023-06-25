@@ -102,6 +102,7 @@ git clone https://github.com/geohot/tinygrad.git
 cd tinygrad
 python3 -m pip install -e .
 ```
+
 Don't forget the `.` at the end!
 
 ## Documentation
@@ -123,6 +124,7 @@ print(y.grad.numpy())  # dz/dy
 ```
 
 The same thing but in PyTorch:
+
 ```py
 import torch
 
@@ -137,7 +139,7 @@ print(y.grad.numpy())  # dz/dy
 
 ## Contributing
 
-There has been a lot of interest in tinygrad lately. Here are some basic guidelines for contributing:
+There has been a lot of interest in tinygrad lately. Here are some basic guidelines for contributing to the project:
 
 - Bug fixes are the best and always welcome! Like [this one](https://github.com/geohot/tinygrad/pull/421/files).
 - If you don't understand the code you are changing, don't change it!
@@ -152,6 +154,7 @@ Additional guidelines can be found in [CONTRIBUTING.md](/CONTRIBUTING.md).
 For more examples on how to run the full test suite please refer to the [CI workflow](.github/workflows/test.yml).
 
 Some examples:
+
 ```sh
 python3 -m pip install -e '.[testing]'
 python3 -m pytest
